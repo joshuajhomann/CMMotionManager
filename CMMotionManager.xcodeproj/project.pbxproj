@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F061AB200D268200ABDBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F061A9200D268200ABDBEA /* Main.storyboard */; };
+		03F061AD200D268200ABDBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F061AC200D268200ABDBEA /* Assets.xcassets */; };
+		03F061B0200D268200ABDBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F061AE200D268200ABDBEA /* LaunchScreen.storyboard */; };
+		03F061BF200D270900ABDBEA /* PhysicsviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061B7200D270800ABDBEA /* PhysicsviewController.swift */; };
+		03F061C0200D270900ABDBEA /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061B8200D270800ABDBEA /* TabViewController.swift */; };
+		03F061C1200D270900ABDBEA /* GyroscopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061B9200D270900ABDBEA /* GyroscopeViewController.swift */; };
+		03F061C2200D270900ABDBEA /* NSNotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061BA200D270900ABDBEA /* NSNotificationNameExtension.swift */; };
+		03F061C3200D270900ABDBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061BB200D270900ABDBEA /* AppDelegate.swift */; };
+		03F061C4200D270900ABDBEA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061BC200D270900ABDBEA /* Constant.swift */; };
+		03F061C5200D270900ABDBEA /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061BD200D270900ABDBEA /* AccelerometerViewController.swift */; };
+		03F061C6200D270900ABDBEA /* MotionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F061BE200D270900ABDBEA /* MotionManger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F061A2200D268200ABDBEA /* CMMotionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMMotionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F061AA200D268200ABDBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F061AC200D268200ABDBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F061AF200D268200ABDBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F061B1200D268200ABDBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F061B7200D270800ABDBEA /* PhysicsviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsviewController.swift; sourceTree = "<group>"; };
+		03F061B8200D270800ABDBEA /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		03F061B9200D270900ABDBEA /* GyroscopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroscopeViewController.swift; sourceTree = "<group>"; };
+		03F061BA200D270900ABDBEA /* NSNotificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationNameExtension.swift; sourceTree = "<group>"; };
+		03F061BB200D270900ABDBEA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F061BC200D270900ABDBEA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		03F061BD200D270900ABDBEA /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		03F061BE200D270900ABDBEA /* MotionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F0619F200D268200ABDBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F06199200D268200ABDBEA = {
+			isa = PBXGroup;
+			children = (
+				03F061A4200D268200ABDBEA /* CMMotionManager */,
+				03F061A3200D268200ABDBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F061A3200D268200ABDBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F061A2200D268200ABDBEA /* CMMotionManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F061A4200D268200ABDBEA /* CMMotionManager */ = {
+			isa = PBXGroup;
+			children = (
+				03F061BD200D270900ABDBEA /* AccelerometerViewController.swift */,
+				03F061BB200D270900ABDBEA /* AppDelegate.swift */,
+				03F061BC200D270900ABDBEA /* Constant.swift */,
+				03F061B9200D270900ABDBEA /* GyroscopeViewController.swift */,
+				03F061BE200D270900ABDBEA /* MotionManger.swift */,
+				03F061BA200D270900ABDBEA /* NSNotificationNameExtension.swift */,
+				03F061B7200D270800ABDBEA /* PhysicsviewController.swift */,
+				03F061B8200D270800ABDBEA /* TabViewController.swift */,
+				03F061A9200D268200ABDBEA /* Main.storyboard */,
+				03F061AC200D268200ABDBEA /* Assets.xcassets */,
+				03F061AE200D268200ABDBEA /* LaunchScreen.storyboard */,
+				03F061B1200D268200ABDBEA /* Info.plist */,
+			);
+			path = CMMotionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F061A1200D268200ABDBEA /* CMMotionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F061B4200D268200ABDBEA /* Build configuration list for PBXNativeTarget "CMMotionManager" */;
+			buildPhases = (
+				03F0619E200D268200ABDBEA /* Sources */,
+				03F0619F200D268200ABDBEA /* Frameworks */,
+				03F061A0200D268200ABDBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMMotionManager;
+			productName = CMMotionManager;
+			productReference = 03F061A2200D268200ABDBEA /* CMMotionManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F0619A200D268200ABDBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.josh;
+				TargetAttributes = {
+					03F061A1200D268200ABDBEA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03F0619D200D268200ABDBEA /* Build configuration list for PBXProject "CMMotionManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F06199200D268200ABDBEA;
+			productRefGroup = 03F061A3200D268200ABDBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F061A1200D268200ABDBEA /* CMMotionManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F061A0200D268200ABDBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F061B0200D268200ABDBEA /* LaunchScreen.storyboard in Resources */,
+				03F061AD200D268200ABDBEA /* Assets.xcassets in Resources */,
+				03F061AB200D268200ABDBEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F0619E200D268200ABDBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F061C1200D270900ABDBEA /* GyroscopeViewController.swift in Sources */,
+				03F061C0200D270900ABDBEA /* TabViewController.swift in Sources */,
+				03F061C5200D270900ABDBEA /* AccelerometerViewController.swift in Sources */,
+				03F061C2200D270900ABDBEA /* NSNotificationNameExtension.swift in Sources */,
+				03F061C3200D270900ABDBEA /* AppDelegate.swift in Sources */,
+				03F061C6200D270900ABDBEA /* MotionManger.swift in Sources */,
+				03F061BF200D270900ABDBEA /* PhysicsviewController.swift in Sources */,
+				03F061C4200D270900ABDBEA /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03F061A9200D268200ABDBEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F061AA200D268200ABDBEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F061AE200D268200ABDBEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F061AF200D268200ABDBEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F061B2200D268200ABDBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F061B3200D268200ABDBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F061B5200D268200ABDBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				INFOPLIST_FILE = CMMotionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = josh.CMMotionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F061B6200D268200ABDBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				INFOPLIST_FILE = CMMotionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = josh.CMMotionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F0619D200D268200ABDBEA /* Build configuration list for PBXProject "CMMotionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F061B2200D268200ABDBEA /* Debug */,
+				03F061B3200D268200ABDBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F061B4200D268200ABDBEA /* Build configuration list for PBXNativeTarget "CMMotionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F061B5200D268200ABDBEA /* Debug */,
+				03F061B6200D268200ABDBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F0619A200D268200ABDBEA /* Project object */;
+}
