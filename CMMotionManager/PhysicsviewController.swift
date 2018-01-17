@@ -74,10 +74,10 @@ class PhysicsviewController: UIViewController {
             Constant.motionManger.stopDeviceMotionUpdates()
             return
         }
-        guard Constant.motionManger.isAccelerometerAvailable else {
+        guard Constant.motionManger.isDeviceMotionAvailable else {
             return
         }
-        Constant.motionManger.accelerometerUpdateInterval = pollingInterval
+        Constant.motionManger.deviceMotionUpdateInterval = pollingInterval
         Constant.motionManger.startDeviceMotionUpdates(to: .main) { [unowned self] data, error in
             guard let data = data else {
                 return
